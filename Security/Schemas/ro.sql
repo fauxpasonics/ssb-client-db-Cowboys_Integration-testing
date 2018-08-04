@@ -1,0 +1,19 @@
+CREATE SCHEMA [ro]
+AUTHORIZATION [dbo]
+GO
+GRANT ALTER ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT DELETE ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT EXECUTE ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT INSERT ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT REFERENCES ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT SELECT ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT UPDATE ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO
+GRANT VIEW DEFINITION ON SCHEMA:: [ro] TO [CI_ClientWriter]
+GO

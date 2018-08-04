@@ -1,0 +1,3 @@
+CREATE ROLE [CI_ClientWriter]
+AUTHORIZATION [dbo]
+GO

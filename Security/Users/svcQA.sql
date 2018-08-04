@@ -1,0 +1,2 @@
+CREATE USER [svcQA] FOR LOGIN [svcQA]
+GO

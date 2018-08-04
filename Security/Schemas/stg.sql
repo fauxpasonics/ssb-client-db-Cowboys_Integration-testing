@@ -1,0 +1,5 @@
+CREATE SCHEMA [stg]
+AUTHORIZATION [dbo]
+GO
+GRANT ALTER ON SCHEMA:: [stg] TO [db_SSBDeveloper]
+GO
